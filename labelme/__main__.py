@@ -73,7 +73,9 @@ def main():
     parser.add_argument(
         "--flags",
         help="comma separated list of flags OR file containing flags",
-        default=argparse.SUPPRESS,
+        default='operator_inside,part_visible,tool_visible,door_opened,door_closed'
+        # default=argparse.SUPPRESS
+
     )
     parser.add_argument(
         "--labelflags",
